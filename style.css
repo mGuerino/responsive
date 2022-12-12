@@ -1,0 +1,44 @@
+.container{
+    height: 500px;
+    margin: auto;
+    display:flex;
+}
+
+.row{
+    width: 1000px;
+    height: 150px;
+    margin: 14px;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.red{
+    background: red;
+}
+
+@media(max-width:1024px){
+    .container{
+        display:flex;
+}
+
+.row{
+    width: 1000px;
+    height: 150px;
+    margin: 14px;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.red{
+    background: red;
+}
+
+@media(min-width:1024px){
+    .container{
+        display:block;
+    }
+}
